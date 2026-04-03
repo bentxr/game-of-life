@@ -156,7 +156,7 @@ int main(void){
 
     int running = 0; // When 0 the game is stopped and the user can change the board, when 1 the game runs
     float time = 0.0f;
-    float freq = 0.5f; // Frequency of computing for the board
+    float freq = 0.5f; // Frequency of computing for the board [s]
     InitWindow(screenWidth, screenHeight, "Game Of Life");
     SetTargetFPS(24);
 
